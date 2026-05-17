@@ -72,10 +72,10 @@
 ## Install
 
 ```bash
-npm install -g @agentmemory/agentmemory     # once — bare `agentmemory` on PATH
-agentmemory                                  # start the memory server on :3111
-agentmemory demo                             # seed sample sessions + prove recall
-agentmemory connect claude-code              # wire your agent (also: codex, cursor, gemini-cli, ...)
+sudo npm install -g @agentmemory/agentmemory     # once — bare `agentmemory` on PATH
+agentmemory                                      # start the memory server on :3111
+agentmemory demo                                 # seed sample sessions + prove recall
+agentmemory connect claude-code                  # wire your agent (also: codex, cursor, gemini-cli, ...)
 ```
 
 Or via `npx` (no install):
