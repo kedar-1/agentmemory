@@ -72,9 +72,9 @@
 ## Install
 
 ```bash
-npm install -g `@agentmemory/agentmemory`          # once — bare `agentmemory` on PATH
+npm install -g @agentmemory/agentmemory          # once — bare `agentmemory` on PATH
 # If you hit EACCES on macOS/Linux system Node installs, retry with:
-# sudo npm install -g `@agentmemory/agentmemory`
+# sudo npm install -g @agentmemory/agentmemory
 agentmemory                                      # start the memory server on :3111
 agentmemory demo                                 # seed sample sessions + prove recall
 agentmemory connect claude-code                  # wire your agent (also: codex, cursor, gemini-cli, ...)
@@ -352,7 +352,7 @@ Open `http://localhost:3113` to watch the memory build live.
 ```bash
 npm install -g @agentmemory/agentmemory
 # If you hit EACCES on macOS/Linux system Node installs, retry with:
-# sudo npm install -g `@agentmemory/agentmemory`
+# sudo npm install -g @agentmemory/agentmemory
 agentmemory                    # start the server (same as the npx form)
 agentmemory stop               # tear it down
 agentmemory remove             # uninstall everything we created
